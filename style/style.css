@@ -1,0 +1,16 @@
+@font-face{
+  font-family:"Allura-Regular";
+  src: url("./fonts/Allura-Regular.otf")
+}
+.simple-splash{
+  background-color: purple;
+  color:white;
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  width:100%;
+  height:100%;
+}
+.yogalive-title{
+  font-family: "Allura-Regular";
+}

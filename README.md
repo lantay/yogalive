@@ -1,3 +1,8 @@
+#mason's notes
+npm run dev to start with nodemon, npm start won't change even
+on refresh
+
+
 # React + Node Starter
 _for [Heroku](https://www.heroku.com/) deployment_
 

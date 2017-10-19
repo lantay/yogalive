@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Title = ({ name }) => {
+
+    // this is how we can legit do the form submit later when want to build it out https://stackoverflow.com/questions/27932923/react-js-show-a-message-on-and-after-form-submission
     return (
         <div className="simple-splash container-fluid">
             <div className="container-fluid " >

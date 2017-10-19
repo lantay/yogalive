@@ -58,10 +58,11 @@ app.post('/signup', (req, res) => {
         })
         .end((err, response) => {
             if (response.status < 300 || (response.status === 400 && response.body.title === "Member Exists")) {
-                res.send(response);
+                res.sendFile(__dirname + '/public/lazysuccessform.html'); // For React/Redux
             } else {
-                res.send(err);
+                res.sendFile(__dirname + '/public/lazysuccessform.html'); // For React/Redux
             }
+            // send a 200 response and then render animation on the react side of things
         });
 });
 // ──

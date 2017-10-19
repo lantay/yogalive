@@ -1,7 +1,16 @@
-// @font-face{
-//   font-family:"Allura-Regular";
-//   src: url("../fonts/Allura-Regular.otf")
-// }
+@font-face{
+  font-family:"Allura-Regular";
+  src: url("../fonts/Allura-Regular.otf")
+}
+.yogalive-title{
+  font-family: "Allura-Regular";
+  font-size: 150px;
+}
+@media (max-width:600px){
+  .yogalive-title {
+    font-size:100px;
+  }
+}
 .simple-splash{
   background-color: purple;
   color:white;
@@ -11,6 +20,11 @@
   width:100%;
   height:100%;
 }
-// .yogalive-title{
-//   font-family: "Allura-Regular";
-// }
+.simple-splash {
+  font-size: 20px
+}
+
+
+.splash-form {
+  width: 75%;
+} 

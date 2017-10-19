@@ -1,3 +1,5 @@
+// NO IDEA HOW TO CONNECT THIS FILE
+
 const express = require('express');
 const router = express.Router();
 
@@ -5,7 +7,7 @@ const router = express.Router();
 
 // SAMPLE ROUTE
 router.use('/users', (req, res) => {
-    res.json({ success: true });
+    res.send('yesss');
 });
 
 module.exports = router;

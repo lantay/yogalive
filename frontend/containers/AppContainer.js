@@ -6,7 +6,7 @@ import Title from '../components/Title';
 const AppContainer = ({ name }) => {
     return (
         <div>
-            <Title name={name} />
+            <Title name={name}/>
         </div>
     );
 };
